@@ -1,4 +1,62 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Leif Bjornson | Full-Stack Software Engineer"
+## Basic Configuration
+
+baseurl = "/" 
+builddrafts = true
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Leif Bjornson"
+title = "Leif Bjornson"
+
 theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Leif Bjornson"
+intro = "Software Developer | Husband | Father"
+description = "Passionate, experienced IT professional with a focus on solving business problems with technology solutions."
+authorimage = "profile.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "sonofbjorn"
+instagram = "<username>"
+linkedin = "<username>"
+twitter = "<username>"
+facebook = "<username>"
+google = "<username>"
+stackoverflow = "<username>"
+email = "you@example.com"
+
+## Extras
+[params.extra]
+copyright = "© 2017. Leif Bjornson. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+hightlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"

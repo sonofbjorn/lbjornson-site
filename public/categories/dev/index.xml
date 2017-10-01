@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev on Leif Bjornson</title>
+    <link>/categories/dev/</link>
+    <description>Recent content in Dev on Leif Bjornson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 03 Sep 2017 14:33:21 -0500</lastBuildDate>
+    
+	<atom:link href="/categories/dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My development setup</title>
+      <link>/blog/my-first-post.1/</link>
+      <pubDate>Sun, 03 Sep 2017 14:33:21 -0500</pubDate>
+      
+      <guid>/blog/my-first-post.1/</guid>
+      <description>This is a test post I&amp;rsquo;m making a blog finally. Hmmm&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Top 10 development podcasts</title>
+      <link>/blog/my-first-post/</link>
+      <pubDate>Sun, 03 Sep 2017 14:33:21 -0500</pubDate>
+      
+      <guid>/blog/my-first-post/</guid>
+      <description>I listen to a lot of podcasts.
+const test = &#39;test&#39;  </description>
+    </item>
+    
+  </channel>
+</rss>
